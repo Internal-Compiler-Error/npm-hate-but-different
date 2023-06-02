@@ -1,1 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# NPM CAN GO TO HELL
+
+HOW HARD CAN GRAPH TRAVERSAL AND DOWNLOADING A BUNCH OF FILES BE?
+
