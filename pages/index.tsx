@@ -46,7 +46,7 @@ export default function Home() {
           </Typography>
           <Typography variant="h2">
             NPM has caused me pain {new Intl.NumberFormat().format(count)}{" "}
-            time(s)
+            times
           </Typography>
           <Button
             sx={{
