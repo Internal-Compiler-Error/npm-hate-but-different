@@ -45,7 +45,7 @@ export default function Home() {
             I HATE NPM <br></br>I HATE NPM <br></br>I HATE NPM
           </Typography>
           <Typography variant="h2">
-            NPM has caused me pain for {new Intl.NumberFormat().format(count)}{" "}
+            NPM has caused me pain {new Intl.NumberFormat().format(count)}{" "}
             times
           </Typography>
           <Button
