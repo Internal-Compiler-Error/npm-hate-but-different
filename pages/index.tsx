@@ -10,7 +10,7 @@ import { Button, Container, Typography } from "@mui/material";
 export default function Home() {
   const [count, setCount] = React.useState(0);
   const update = async () => {
-    await fetch("http://localhost:1066/api/v1/counter")
+    await fetch("http://127.0.0.1:1066/api/v1/counter")
       .then((res) => res.text())
       .then((data) => setCount(Number(data)))
       .catch((err) => console.error(err));
@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   const updateMyPain = async () => {
-    await fetch("http://localhost:1066/api/v1/counter/increment", {
+    await fetch("http://127.0.0.1:1066/api/v1/counter/increment", {
       method: "PUT",
     }).catch((err) => console.error(err));
 
